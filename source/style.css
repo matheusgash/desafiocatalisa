@@ -22,16 +22,18 @@ main > section img {
     height: 300px;
     margin: 15px 0;
     width: 300px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 main > section button {
     display: flex;
     background-color: #fa0c97;
-    border-radius: 4px;
+    border-radius: 8px;
     color: #00CED1;
-    font-size: 12px;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px;
+    width: 100%;
 }
 
 .dados{

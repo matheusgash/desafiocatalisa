@@ -5,7 +5,7 @@ const especiePersonagem = document.querySelector('#especie');
 const statusPersonagem = document.querySelector('#status');
 
 gerarValorAleatorio = () => {
-    const numeros = [5, 50, 500];
+    const numeros = [5, 50, 400];
     const index = Math.floor(Math.random() * numeros.length);
     const numGerado = numeros[index];
     return numGerado;
