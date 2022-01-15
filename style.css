@@ -16,3 +16,19 @@ main{
     justify-content: center;
     position:relative;
 }
+
+main > section img {
+    height: 300px;
+    margin: 15px 0;
+    width: 300px;
+}
+
+main > section button {
+    display: flex;
+    background-color: #fa0c97;
+    border-radius: 4px;
+    color: #00CED1;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
