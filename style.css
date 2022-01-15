@@ -32,3 +32,18 @@ main > section button {
     font-weight: 500;
     text-transform: uppercase;
 }
+
+.dados{
+    display: flex;
+}
+
+ul.tree {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    padding: 0;
+    vertical-align: top;
+}
+
+ul li p {
+    display: inline-block;
+}
